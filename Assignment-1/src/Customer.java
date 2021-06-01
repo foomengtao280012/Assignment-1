@@ -1,17 +1,17 @@
 import java.util.Scanner;
 
-public class Customer {
+public class Customer extends GroceryStore{
 	String name, address;
 	int phoneNum;
-	Scanner scan = new Scanner(System.in); //Pre-Defined Class
+	Scanner scan = new Scanner(System.in); //pre-Defined Class
 	
 	Customer(){ //Constructor with no argument
 		System.out.println("\nPlease enter your details...");
-		System.out.print("Enter name\t\t: ");
+		System.out.print("Enter name\t: ");
 		this.name = scan.next()+scan.nextLine();
-		System.out.print("Enter phone number\t: ");
+		System.out.print("Enter phone number: ");
 		this.phoneNum = scan.nextInt();
-		System.out.print("Enter address\t\t: ");
+		System.out.print("Enter address\t: ");
 		this.address = scan.next()+scan.nextLine();
 	}
 

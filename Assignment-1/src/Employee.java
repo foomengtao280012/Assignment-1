@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Employee {
+public class Employee extends GroceryStore{
 	String name, gender, address;
 	int age, phoneNum;
 	Scanner scan = new Scanner(System.in); //Pre-Defined Class

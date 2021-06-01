@@ -1,5 +1,5 @@
 
-public class Inventory {
+public class Inventory extends GroceryStore{
 	String[] productName = { "Frozen Pizza", "Fish Fillet", "Sausage" };
 	double[] price = { 12.0, 4.0, 7.0 };
 	int[] quantity = { 48, 36, 57 };

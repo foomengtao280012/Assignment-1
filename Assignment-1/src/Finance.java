@@ -1,5 +1,5 @@
 
-public class Finance {
+public class Finance extends GroceryStore{
 	double totalIncome, insurance, rent, inventory, advertisementCosts;
 
 	Finance(double totalIncome, double insurance, double rent, double inventory, double advertisementCosts) { //constructor with 5 arguments
